@@ -75,5 +75,3 @@ def get_dealer_reviews_from_cf(url, dealerId):
 def analyze_review_sentiments(dealerreview):
     get_request(url,**kwargs)
 
-
-
