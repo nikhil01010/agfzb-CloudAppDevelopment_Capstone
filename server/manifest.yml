@@ -1,11 +1,11 @@
   applications:
   - name: djangoapp
     routes:
-      - route: nik.eu-gb.mybluemix.net
+      - route: crimson.eu-gb.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: nik.eu-gb.mybluemix.net/static
+      - route: crimson.eu-gb.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
